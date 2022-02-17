@@ -1,16 +1,15 @@
 START
-declare int, sq_int, loop
+declare all variables that is int, sq_int
 set int to 0
-input int
+prompt user to input int
 let sq_int be n
-set n to int^2
+set n to int^2 to find the squareroot of the users input
 
-for loop <- 0 to n
-sum <- sum + n
+create a for loop that starts from 0 to n, n being the squareroot of the user's input
+in the loop find the sum of the squared numbers using sum= sum + n
 
-end for
+end for loop
 
 output sum
 
 END
-
