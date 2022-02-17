@@ -1,0 +1,16 @@
+START
+declare int, sq_int, loop
+set int to 0
+input int
+let sq_int be n
+set n to int^2
+
+for loop <- 0 to n
+sum <- sum + n
+
+end for
+
+output sum
+
+END
+
