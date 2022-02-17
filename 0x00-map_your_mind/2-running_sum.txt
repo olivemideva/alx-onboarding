@@ -1,0 +1,14 @@
+START
+prmpt the user to input a number that is input n
+set int n to 0
+
+create a while loop that checks if the number is positive and if it is it adds the number to the sum
+while n > 0 do:
+ sum = sum + n
+
+end while
+
+output sum
+
+END
+
