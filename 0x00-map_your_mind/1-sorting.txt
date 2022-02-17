@@ -1,0 +1,23 @@
+START
+
+create an array A to hold all the numbers that will be inserted which in this case are just 3
+declare two variables int gap and valueToInsert
+int gap
+int valueToInsert
+
+create a for loop that chooses a value to be inserted
+for i =1 to length of array A inclusive do:
+valueToInsert = A[i]
+gap = i
+
+using a while loop find a gap where the value is inserted by going through all the values in the array comparing each one of the with the selected value
+while gap > 0 and A[gap-1]>valueToInsert do:
+A[gap] = A[gap-1]
+gap = gap-1
+end while
+
+insert the value in the located gap
+A[gap] = valueToInsert
+end for
+
+END
